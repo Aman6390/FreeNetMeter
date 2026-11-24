@@ -4,10 +4,28 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![UI: PyQt6](https://img.shields.io/badge/UI-PyQt6-green.svg)](https://riverbankcomputing.com/software/pyqt/)
 [![Platform: Windows 10 / 11](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20(64--bit)-lightgrey.svg)]()
+[![Built with: Google Antigravity AI](https://img.shields.io/badge/Built%20with-Google%20DeepMind%20Antigravity-orange.svg)]()
 
 **FreeNetMeter** is a complete, production-quality, free, open-source network throughput meter and bandwidth telemetry monitor engineered specifically for Windows 10 and Windows 11 (64-bit).
 
 Written 100% from scratch with no copied code, assets, or telemetry, FreeNetMeter provides accurate real-time network speeds, an always-on-top desktop widget, system tray telemetry, detailed historical daily usage reporting, safe CSV exports, and seamless Windows system integration.
+
+---
+
+## 🤖 AI Transparency & Authorship Disclosure
+
+> **Upfront Disclosure**: **FreeNetMeter was built through extensive human-AI collaboration.**
+
+This project was conceived, steered, user-tested, and verified on real Windows hardware by **Aman Kumar ([@Aman6390](https://github.com/Aman6390))**, while the core systems engineering, architecture design, PyQt6 UI components, and automated test suite were generated and iteratively refined by **Antigravity** (Google DeepMind's agentic AI assistant).
+
+### How AI Was Utilized Across This Project:
+- **Architectural Engineering**: Designed strict decoupled boundaries between pure business logic (`core`), persistence (`storage`), Windows platform hooks (`platform`), and presentation (`ui`).
+- **100% Original Codebase**: Authored all modules from scratch in Python and PyQt6 with zero proprietary assets or reverse-engineered code.
+- **Apple Design Principles & UI Engineering**: Translated commercial desktop software concepts into modern, fluid interfaces featuring a 60 FPS spring-animated speedometer arc gauge, vector graph plotting canvas, responsive metric cards, and a 12-module navigation sidebar.
+- **Autonomous Verification & Rigorous QA**: Created and passed a full test suite of **68 automated tests** (including property-based fuzz tests with `hypothesis`), enforced **strict `mypy` typing** across all 56 source files with 0 errors, and maintained impeccable linting with `ruff` and `black`.
+- **System-Level Debugging**: Investigated and resolved intricate Windows integration challenges, such as kernel counter parity verification (`psutil` vs `Get-NetAdapterStatistics`), DPI scaling edge clamping, single-instance local IPC, and Cloudflare API speed test tier whitelists.
+
+FreeNetMeter is released transparently under the **MIT License** as an open-source demonstration of what modern human-AI software craftsmanship can achieve.
 
 ---
 

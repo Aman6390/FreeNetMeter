@@ -1,0 +1,40 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# Type checking & linting
+.mypy_cache/
+.ruff_cache/
+
+# PyInstaller & Distribution
+build/
+dist/
+*.zip
+
+# Local test database and preview assets
+test_preview_usage.db
+dashboard_preview_*.png
+
+# User local data
+settings.json
+settings.json.bad
+usage.db
+usage.db-wal
+usage.db-shm
+logs/
+*.log

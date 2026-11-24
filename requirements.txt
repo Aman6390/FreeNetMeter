@@ -1,0 +1,10 @@
+# FreeNetMeter Runtime Dependencies
+# Pinned exact versions for reproducible production builds
+
+# psutil: reads per-interface network I/O counters (bytes_sent, bytes_recv) via Windows MIB_IF_ROW2
+psutil==7.2.2
+
+# PyQt6: modern Windows GUI framework supporting high-DPI, system tray, frameless windows, and Qt threads
+PyQt6==6.12.0
+PyQt6-Qt6==6.12.0
+PyQt6-sip==13.13.0

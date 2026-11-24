@@ -1,0 +1,23 @@
+# FreeNetMeter Development & Test Dependencies
+# Pinned exact versions for testing, linting, type-checking, and packaging
+
+# pytest: unit test runner for core and storage logic
+pytest==9.2.0
+
+# pytest-cov: coverage reporter to measure branch and line coverage
+pytest-cov==7.1.0
+
+# hypothesis: property-based testing proving arithmetic guarantees (e.g. non-negative speeds)
+hypothesis==6.170.15
+
+# black: opinionated PEP 8 code formatter
+black==26.10.1
+
+# ruff: lightning-fast linter for Python code quality and import sorting
+ruff==0.17.4
+
+# mypy: static type analyzer enforcing complete and sound type hints
+mypy==2.4.1
+
+# pyinstaller: packages the application into a standalone 64-bit Windows executable
+pyinstaller==6.22.3
